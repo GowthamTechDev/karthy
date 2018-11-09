@@ -1,0 +1,14 @@
+//
+//  Adlib-Prefix.pch
+//  Adlib
+//
+//  Created by Peter Grates on 6/22/15.
+//  Copyright (c) 2015 Adlib Mediation. All rights reserved.
+//
+
+#ifndef Adlib_Adlib_Prefix_pch
+#define Adlib_Adlib_Prefix_pch
+
+#import "AMNamespacedDependencies.h"
+
+#endif

@@ -1,0 +1,25 @@
+PODS:
+  - Adlib-framework (1.0.0):
+    - InMobiSDK
+    - PWAds
+  - InMobiSDK (5.3.0)
+  - PWAds (3.2.2):
+    - PWCore
+  - PWCore (2.0.0)
+
+DEPENDENCIES:
+  - Adlib-framework (from `.`)
+
+EXTERNAL SOURCES:
+  Adlib-framework:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Adlib-framework: 7551838f854dbced247456dff3d65a1c5a76c998
+  InMobiSDK: 11b5a4ef662afcc3f0baa73b5bb1bfb32f379098
+  PWAds: fb4fc5d849dcfde387883a1dea472ed0214323b3
+  PWCore: 64c409008f6c6733f0145625ae144ad15a53e80d
+
+PODFILE CHECKSUM: 0461f339d0a33a883facf4a71f992b43371b5a8a
+
+COCOAPODS: 1.0.0

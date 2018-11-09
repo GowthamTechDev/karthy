@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Adlib', :exclusive => true do
+  pod 'Adlib-framework', :path => '.'
+end
+
+# target 'Example', :exclusive => true do
+  # pod 'AFNetworking'
+  # pod 'Mantle'
+# end
+
+# target 'UnitTests', :exclusive => true do
+#   pod 'Adlib-framework', :path => '.'
+# end

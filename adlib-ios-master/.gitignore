@@ -1,0 +1,39 @@
+# Temp files
+*~.nib
+*.swp
+
+# OS X
+.DS_Store
+
+# user-specific XCode
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+*.orig
+*xcuserdata
+*.xccheckout
+
+# XCode Build artifacts
+Build
+
+# Bundler
+bin
+.bundle
+
+# CocoaPods
+Example/Pods
+Pods
+
+# AppCode
+.idea
+atlassian-ide-plugin.xml
+
+# Documentation
+Docs
+
+# Output
+Output
+
+#Derived Data
+DerivedData

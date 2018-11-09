@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'Example', :exclusive => true do
+  # pod 'Adlib', :path => '../'
+  pod 'AFNetworkActivityLogger'
+  pod 'AFNetworking'
+  pod 'Mantle', '0.3'
+  pod 'XLForm', :git => 'https://github.com/xmartlabs/XLForm.git'
+end
+
+# target 'Tests', :exclusive => true do
+#   pod 'Adlib', :path => '../'
+# end

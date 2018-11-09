@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		361A9ACE1B38563300943FAD /* Adlib-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 361A9ACF1B38563300943FAD /* Build configuration list for PBXAggregateTarget "Adlib-universal" */;
+			buildPhases = (
+				361A9AE21B39A77700943FAD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Adlib-universal";
+			productName = "Adlib-universal";
+		};
+		367008551B3C8E9F0064A9D7 /* Adlib-universal-beta */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 367008591B3C8E9F0064A9D7 /* Build configuration list for PBXAggregateTarget "Adlib-universal-beta" */;
+			buildPhases = (
+				367008581B3C8E9F0064A9D7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Adlib-universal-beta";
+			productName = "Adlib-universal";
+		};
+		3670085E1B3C96620064A9D7 /* Adlib-universal-staging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 367008621B3C96620064A9D7 /* Build configuration list for PBXAggregateTarget "Adlib-universal-staging" */;
+			buildPhases = (
+				367008611B3C96620064A9D7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Adlib-universal-staging";
+			productName = "Adlib-universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		361A9A201B384C6400943FAD /* Adlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99DA1B384C6400943FAD /* Adlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A211B384C6400943FAD /* AMMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99DB1B384C6400943FAD /* AMMacros.h */; };
+		361A9A221B384C6400943FAD /* AdlibClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99DD1B384C6400943FAD /* AdlibClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A231B384C6400943FAD /* AdlibClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99DE1B384C6400943FAD /* AdlibClient.m */; };
+		361A9A241B384C6400943FAD /* AdlibClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99DF1B384C6400943FAD /* AdlibClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A251B384C6400943FAD /* AMAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99E11B384C6400943FAD /* AMAd.h */; };
+		361A9A261B384C6400943FAD /* AMAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99E21B384C6400943FAD /* AMAd.m */; };
+		361A9A271B384C6400943FAD /* AMAdQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99E31B384C6400943FAD /* AMAdQuery.h */; };
+		361A9A281B384C6400943FAD /* AMAdQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99E41B384C6400943FAD /* AMAdQuery.m */; };
+		361A9A291B384C6400943FAD /* AMAdUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99E51B384C6400943FAD /* AMAdUnit.h */; };
+		361A9A2A1B384C6400943FAD /* AMAdUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99E61B384C6400943FAD /* AMAdUnit.m */; };
+		361A9A2B1B384C6400943FAD /* AMCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99E71B384C6400943FAD /* AMCampaign.h */; };
+		361A9A2C1B384C6400943FAD /* AMCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99E81B384C6400943FAD /* AMCampaign.m */; };
+		361A9A2D1B384C6400943FAD /* AMCampaignTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99E91B384C6400943FAD /* AMCampaignTarget.h */; };
+		361A9A2E1B384C6400943FAD /* AMCampaignTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99EA1B384C6400943FAD /* AMCampaignTarget.m */; };
+		361A9A2F1B384C6400943FAD /* AMClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99EB1B384C6400943FAD /* AMClientConfiguration.h */; };
+		361A9A301B384C6400943FAD /* AMClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99EC1B384C6400943FAD /* AMClientConfiguration.m */; };
+		361A9A311B384C6400943FAD /* AMNetworkConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99ED1B384C6400943FAD /* AMNetworkConfiguration.h */; };
+		361A9A321B384C6400943FAD /* AMNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99EE1B384C6400943FAD /* AMNetworkConfiguration.m */; };
+		361A9A331B384C6400943FAD /* AMRegisterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99EF1B384C6400943FAD /* AMRegisterEvent.h */; };
+		361A9A341B384C6400943FAD /* AMRegisterEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99F01B384C6400943FAD /* AMRegisterEvent.m */; };
+		361A9A351B384C6400943FAD /* AMTapEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99F11B384C6400943FAD /* AMTapEvent.h */; };
+		361A9A361B384C6400943FAD /* AMTapEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99F21B384C6400943FAD /* AMTapEvent.m */; };
+		361A9A371B384C6400943FAD /* AMHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99F41B384C6400943FAD /* AMHTTPClient.h */; };
+		361A9A381B384C6400943FAD /* AMHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99F51B384C6400943FAD /* AMHTTPClient.m */; };
+		361A9A391B384C6400943FAD /* AMAdlibProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99F71B384C6400943FAD /* AMAdlibProvider.h */; };
+		361A9A3A1B384C6400943FAD /* AMAdlibProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99F81B384C6400943FAD /* AMAdlibProvider.m */; };
+		361A9A3B1B384C6400943FAD /* AMAdMobProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99F91B384C6400943FAD /* AMAdMobProvider.h */; };
+		361A9A3C1B384C6400943FAD /* AMAdMobProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99FA1B384C6400943FAD /* AMAdMobProvider.m */; };
+		361A9A3D1B384C6400943FAD /* AMAppLovinProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99FB1B384C6400943FAD /* AMAppLovinProvider.h */; };
+		361A9A3E1B384C6400943FAD /* AMAppLovinProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99FC1B384C6400943FAD /* AMAppLovinProvider.m */; };
+		361A9A3F1B384C6400943FAD /* AMGreystripeProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99FD1B384C6400943FAD /* AMGreystripeProvider.h */; };
+		361A9A401B384C6400943FAD /* AMGreystripeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A99FE1B384C6400943FAD /* AMGreystripeProvider.m */; };
+		361A9A411B384C6400943FAD /* AMInMobiProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A99FF1B384C6400943FAD /* AMInMobiProvider.h */; };
+		361A9A421B384C6400943FAD /* AMInMobiProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A001B384C6400943FAD /* AMInMobiProvider.m */; };
+		361A9A431B384C6400943FAD /* AMPhunwareProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A011B384C6400943FAD /* AMPhunwareProvider.h */; };
+		361A9A441B384C6400943FAD /* AMPhunwareProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A021B384C6400943FAD /* AMPhunwareProvider.m */; };
+		361A9A451B384C6400943FAD /* AMProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A031B384C6400943FAD /* AMProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A461B384C6400943FAD /* AMProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A041B384C6400943FAD /* AMProvider.m */; };
+		361A9A471B384C6400943FAD /* AMStartAppProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A051B384C6400943FAD /* AMStartAppProvider.h */; };
+		361A9A481B384C6400943FAD /* AMStartAppProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A061B384C6400943FAD /* AMStartAppProvider.m */; };
+		361A9A491B384C6400943FAD /* AMAdMobBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A091B384C6400943FAD /* AMAdMobBannerAdapter.h */; };
+		361A9A4A1B384C6400943FAD /* AMAdMobBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A0A1B384C6400943FAD /* AMAdMobBannerAdapter.m */; };
+		361A9A4B1B384C6400943FAD /* AMAPIBannerViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A0B1B384C6400943FAD /* AMAPIBannerViewAdapter.h */; };
+		361A9A4C1B384C6400943FAD /* AMAPIBannerViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A0C1B384C6400943FAD /* AMAPIBannerViewAdapter.m */; };
+		361A9A4D1B384C6400943FAD /* AMAppLovinBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A0D1B384C6400943FAD /* AMAppLovinBannerAdapter.h */; };
+		361A9A4E1B384C6400943FAD /* AMAppLovinBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A0E1B384C6400943FAD /* AMAppLovinBannerAdapter.m */; };
+		361A9A4F1B384C6400943FAD /* AMGreystripeBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A0F1B384C6400943FAD /* AMGreystripeBannerAdapter.h */; };
+		361A9A501B384C6400943FAD /* AMGreystripeBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A101B384C6400943FAD /* AMGreystripeBannerAdapter.m */; };
+		361A9A511B384C6400943FAD /* AMInMobiBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A111B384C6400943FAD /* AMInMobiBannerAdapter.h */; };
+		361A9A521B384C6400943FAD /* AMInMobiBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A121B384C6400943FAD /* AMInMobiBannerAdapter.m */; };
+		361A9A531B384C6400943FAD /* AMPhunwareBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A131B384C6400943FAD /* AMPhunwareBannerAdapter.h */; };
+		361A9A541B384C6400943FAD /* AMPhunwareBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A141B384C6400943FAD /* AMPhunwareBannerAdapter.m */; };
+		361A9A551B384C6400943FAD /* AMStartAppBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A151B384C6400943FAD /* AMStartAppBannerAdapter.h */; };
+		361A9A561B384C6400943FAD /* AMStartAppBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A161B384C6400943FAD /* AMStartAppBannerAdapter.m */; };
+		361A9A571B384C6400943FAD /* AMAPIBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A171B384C6400943FAD /* AMAPIBannerView.h */; };
+		361A9A581B384C6400943FAD /* AMAPIBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A181B384C6400943FAD /* AMAPIBannerView.m */; };
+		361A9A591B384C6400943FAD /* AMAPIBannerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A191B384C6400943FAD /* AMAPIBannerViewDelegate.h */; };
+		361A9A5A1B384C6400943FAD /* AMBannerLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A1A1B384C6400943FAD /* AMBannerLoader.h */; };
+		361A9A5B1B384C6400943FAD /* AMBannerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A1B1B384C6400943FAD /* AMBannerLoader.m */; };
+		361A9A5C1B384C6400943FAD /* AMBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A1C1B384C6400943FAD /* AMBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A5D1B384C6400943FAD /* AMBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9A1D1B384C6400943FAD /* AMBannerView.m */; };
+		361A9A5E1B384C6400943FAD /* AMBannerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A1E1B384C6400943FAD /* AMBannerViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361A9A5F1B384C6400943FAD /* AMProviderBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9A1F1B384C6400943FAD /* AMProviderBannerAdapter.h */; };
+		361A9ADD1B3863B200943FAD /* Adlib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 361A9ADC1B3863B200943FAD /* Adlib-Prefix.pch */; };
+		361A9B251B39ED0E00943FAD /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AF31B39ED0E00943FAD /* AFHTTPSessionManager.h */; };
+		361A9B261B39ED0E00943FAD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AF41B39ED0E00943FAD /* AFHTTPSessionManager.m */; };
+		361A9B271B39ED0E00943FAD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AF51B39ED0E00943FAD /* AFNetworkReachabilityManager.h */; };
+		361A9B281B39ED0E00943FAD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AF61B39ED0E00943FAD /* AFNetworkReachabilityManager.m */; };
+		361A9B291B39ED0E00943FAD /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AF71B39ED0E00943FAD /* AFSecurityPolicy.h */; };
+		361A9B2A1B39ED0E00943FAD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AF81B39ED0E00943FAD /* AFSecurityPolicy.m */; };
+		361A9B2B1B39ED0E00943FAD /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AF91B39ED0E00943FAD /* AFURLRequestSerialization.h */; };
+		361A9B2C1B39ED0E00943FAD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AFA1B39ED0E00943FAD /* AFURLRequestSerialization.m */; };
+		361A9B2D1B39ED0E00943FAD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AFB1B39ED0E00943FAD /* AFURLResponseSerialization.h */; };
+		361A9B2E1B39ED0E00943FAD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AFC1B39ED0E00943FAD /* AFURLResponseSerialization.m */; };
+		361A9B2F1B39ED0E00943FAD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AFD1B39ED0E00943FAD /* AFURLSessionManager.h */; };
+		361A9B301B39ED0E00943FAD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9AFE1B39ED0E00943FAD /* AFURLSessionManager.m */; };
+		361A9B311B39ED0E00943FAD /* AMNamespacedDependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9AFF1B39ED0E00943FAD /* AMNamespacedDependencies.h */; };
+		361A9B391B39ED0E00943FAD /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B091B39ED0E00943FAD /* MTLJSONAdapter.h */; };
+		361A9B3A1B39ED0E00943FAD /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B0A1B39ED0E00943FAD /* MTLJSONAdapter.m */; };
+		361A9B3B1B39ED0E00943FAD /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B0B1B39ED0E00943FAD /* MTLModel+NSCoding.h */; };
+		361A9B3C1B39ED0E00943FAD /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B0C1B39ED0E00943FAD /* MTLModel+NSCoding.m */; };
+		361A9B3D1B39ED0E00943FAD /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B0D1B39ED0E00943FAD /* MTLModel.h */; };
+		361A9B3E1B39ED0E00943FAD /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B0E1B39ED0E00943FAD /* MTLModel.m */; };
+		361A9B3F1B39ED0E00943FAD /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B0F1B39ED0E00943FAD /* MTLReflection.h */; };
+		361A9B401B39ED0E00943FAD /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B101B39ED0E00943FAD /* MTLReflection.m */; };
+		361A9B411B39ED0E00943FAD /* MTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B111B39ED0E00943FAD /* MTLTransformerErrorHandling.h */; };
+		361A9B421B39ED0E00943FAD /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B121B39ED0E00943FAD /* MTLTransformerErrorHandling.m */; };
+		361A9B431B39ED0E00943FAD /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B131B39ED0E00943FAD /* MTLValueTransformer.h */; };
+		361A9B441B39ED0E00943FAD /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B141B39ED0E00943FAD /* MTLValueTransformer.m */; };
+		361A9B451B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B151B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.h */; };
+		361A9B461B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B161B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.m */; };
+		361A9B471B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B171B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.h */; };
+		361A9B481B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B181B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.m */; };
+		361A9B491B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B191B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.h */; };
+		361A9B4A1B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B1A1B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.m */; };
+		361A9B4B1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B1B1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.h */; };
+		361A9B4C1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B1C1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.m */; };
+		361A9B4D1B39ED0E00943FAD /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B1D1B39ED0E00943FAD /* NSError+MTLModelException.h */; };
+		361A9B4E1B39ED0E00943FAD /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B1E1B39ED0E00943FAD /* NSError+MTLModelException.m */; };
+		361A9B4F1B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B1F1B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.h */; };
+		361A9B501B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B201B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.m */; };
+		361A9B511B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B211B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.h */; };
+		361A9B521B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B221B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.m */; };
+		361A9B531B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B231B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; };
+		361A9B541B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B241B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; };
+		3637D1571B3C399D0018AB80 /* AMDemographics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3637D1551B3C399D0018AB80 /* AMDemographics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3637D1581B3C399D0018AB80 /* AMDemographics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3637D1561B3C399D0018AB80 /* AMDemographics.m */; };
+		3637D15B1B3C60C80018AB80 /* AMNetworkConfigurationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3637D1591B3C60C80018AB80 /* AMNetworkConfigurationManager.h */; };
+		3637D15C1B3C60C80018AB80 /* AMNetworkConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3637D15A1B3C60C80018AB80 /* AMNetworkConfigurationManager.m */; };
+		367008471B3C6C190064A9D7 /* AMConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 367008451B3C6C190064A9D7 /* AMConfiguration.h */; };
+		367008481B3C6C190064A9D7 /* AMConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 367008461B3C6C190064A9D7 /* AMConfiguration.m */; };
+		36CD3A2C1B3B2EDC00B86663 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B5A1B3AFFAD00943FAD /* EXTRuntimeExtensions.m */; };
+		36CD3A2D1B3B2EEA00B86663 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9B5C1B3AFFAD00943FAD /* EXTScope.m */; };
+		36CD3A991B3B37E000B86663 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B581B3AFFAD00943FAD /* EXTKeyPathCoding.h */; };
+		36CD3A9A1B3B37E200B86663 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B591B3AFFAD00943FAD /* EXTRuntimeExtensions.h */; };
+		36CD3A9B1B3B37E600B86663 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B5B1B3AFFAD00943FAD /* EXTScope.h */; };
+		36CD3A9C1B3B37EA00B86663 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A9B5D1B3AFFAD00943FAD /* metamacros.h */; };
+		3DE47C9D90DAE3FDC573E9A8 /* libPods-Adlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4771889B313E2D0FECF61D1 /* libPods-Adlib.a */; };
+		535CD1C11CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 535CD1BF1CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.h */; };
+		535CD1C21CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 535CD1C01CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.m */; };
+		535CD1C51CEA5C870059CA02 /* AMStartAppInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 535CD1C31CEA5C870059CA02 /* AMStartAppInterstitialAdapter.h */; };
+		535CD1C61CEA5C870059CA02 /* AMStartAppInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 535CD1C41CEA5C870059CA02 /* AMStartAppInterstitialAdapter.m */; };
+		5371575D1CE64A190073A124 /* AMAPIInterstitialView.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157541CE64A190073A124 /* AMAPIInterstitialView.h */; };
+		5371575E1CE64A190073A124 /* AMAPIInterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 537157551CE64A190073A124 /* AMAPIInterstitialView.m */; };
+		5371575F1CE64A190073A124 /* AMAPIInterstitialViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157561CE64A190073A124 /* AMAPIInterstitialViewDelegate.h */; };
+		537157601CE64A190073A124 /* AMInterstitialLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157571CE64A190073A124 /* AMInterstitialLoader.h */; };
+		537157611CE64A190073A124 /* AMInterstitialLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 537157581CE64A190073A124 /* AMInterstitialLoader.m */; };
+		537157621CE64A190073A124 /* AMInterstitialView.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157591CE64A190073A124 /* AMInterstitialView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537157631CE64A190073A124 /* AMInterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5371575A1CE64A190073A124 /* AMInterstitialView.m */; };
+		537157641CE64A190073A124 /* AMInterstitialViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5371575B1CE64A190073A124 /* AMInterstitialViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537157651CE64A190073A124 /* AMProviderInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5371575C1CE64A190073A124 /* AMProviderInterstitialAdapter.h */; };
+		537157681CE64B590073A124 /* AMAPIInterstitialViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157661CE64B590073A124 /* AMAPIInterstitialViewAdapter.h */; };
+		537157691CE64B590073A124 /* AMAPIInterstitialViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 537157671CE64B590073A124 /* AMAPIInterstitialViewAdapter.m */; };
+		5371576C1CE64B790073A124 /* AMAdMobInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5371576A1CE64B790073A124 /* AMAdMobInterstitialAdapter.h */; };
+		5371576D1CE64B790073A124 /* AMAdMobInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5371576B1CE64B790073A124 /* AMAdMobInterstitialAdapter.m */; };
+		537157701CE65C220073A124 /* AMAppLovinInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5371576E1CE65C220073A124 /* AMAppLovinInterstitialAdapter.h */; };
+		537157711CE65C220073A124 /* AMAppLovinInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5371576F1CE65C220073A124 /* AMAppLovinInterstitialAdapter.m */; };
+		537157741CE69D610073A124 /* AMGreystripeInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 537157721CE69D610073A124 /* AMGreystripeInterstitialAdapter.h */; };
+		537157751CE69D610073A124 /* AMGreystripeInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 537157731CE69D610073A124 /* AMGreystripeInterstitialAdapter.m */; };
+		53C0B7301CEA29C70068E5AE /* AMInMobiInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C0B72E1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.h */; };
+		53C0B7311CEA29C70068E5AE /* AMInMobiInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C0B72F1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361A99DA1B384C6400943FAD /* Adlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adlib.h; sourceTree = "<group>"; };
+		361A99DB1B384C6400943FAD /* AMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMacros.h; sourceTree = "<group>"; };
+		361A99DD1B384C6400943FAD /* AdlibClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdlibClient.h; sourceTree = "<group>"; };
+		361A99DE1B384C6400943FAD /* AdlibClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdlibClient.m; sourceTree = "<group>"; };
+		361A99DF1B384C6400943FAD /* AdlibClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdlibClientDelegate.h; sourceTree = "<group>"; };
+		361A99E11B384C6400943FAD /* AMAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAd.h; sourceTree = "<group>"; };
+		361A99E21B384C6400943FAD /* AMAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAd.m; sourceTree = "<group>"; };
+		361A99E31B384C6400943FAD /* AMAdQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdQuery.h; sourceTree = "<group>"; };
+		361A99E41B384C6400943FAD /* AMAdQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdQuery.m; sourceTree = "<group>"; };
+		361A99E51B384C6400943FAD /* AMAdUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdUnit.h; sourceTree = "<group>"; };
+		361A99E61B384C6400943FAD /* AMAdUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdUnit.m; sourceTree = "<group>"; };
+		361A99E71B384C6400943FAD /* AMCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMCampaign.h; sourceTree = "<group>"; };
+		361A99E81B384C6400943FAD /* AMCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMCampaign.m; sourceTree = "<group>"; };
+		361A99E91B384C6400943FAD /* AMCampaignTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMCampaignTarget.h; sourceTree = "<group>"; };
+		361A99EA1B384C6400943FAD /* AMCampaignTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMCampaignTarget.m; sourceTree = "<group>"; };
+		361A99EB1B384C6400943FAD /* AMClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMClientConfiguration.h; sourceTree = "<group>"; };
+		361A99EC1B384C6400943FAD /* AMClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMClientConfiguration.m; sourceTree = "<group>"; };
+		361A99ED1B384C6400943FAD /* AMNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMNetworkConfiguration.h; sourceTree = "<group>"; };
+		361A99EE1B384C6400943FAD /* AMNetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMNetworkConfiguration.m; sourceTree = "<group>"; };
+		361A99EF1B384C6400943FAD /* AMRegisterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMRegisterEvent.h; sourceTree = "<group>"; };
+		361A99F01B384C6400943FAD /* AMRegisterEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMRegisterEvent.m; sourceTree = "<group>"; };
+		361A99F11B384C6400943FAD /* AMTapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTapEvent.h; sourceTree = "<group>"; };
+		361A99F21B384C6400943FAD /* AMTapEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTapEvent.m; sourceTree = "<group>"; };
+		361A99F41B384C6400943FAD /* AMHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMHTTPClient.h; sourceTree = "<group>"; };
+		361A99F51B384C6400943FAD /* AMHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMHTTPClient.m; sourceTree = "<group>"; };
+		361A99F71B384C6400943FAD /* AMAdlibProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdlibProvider.h; sourceTree = "<group>"; };
+		361A99F81B384C6400943FAD /* AMAdlibProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdlibProvider.m; sourceTree = "<group>"; };
+		361A99F91B384C6400943FAD /* AMAdMobProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdMobProvider.h; sourceTree = "<group>"; };
+		361A99FA1B384C6400943FAD /* AMAdMobProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdMobProvider.m; sourceTree = "<group>"; };
+		361A99FB1B384C6400943FAD /* AMAppLovinProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAppLovinProvider.h; sourceTree = "<group>"; };
+		361A99FC1B384C6400943FAD /* AMAppLovinProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAppLovinProvider.m; sourceTree = "<group>"; };
+		361A99FD1B384C6400943FAD /* AMGreystripeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGreystripeProvider.h; sourceTree = "<group>"; };
+		361A99FE1B384C6400943FAD /* AMGreystripeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGreystripeProvider.m; sourceTree = "<group>"; };
+		361A99FF1B384C6400943FAD /* AMInMobiProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInMobiProvider.h; sourceTree = "<group>"; };
+		361A9A001B384C6400943FAD /* AMInMobiProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInMobiProvider.m; sourceTree = "<group>"; };
+		361A9A011B384C6400943FAD /* AMPhunwareProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPhunwareProvider.h; sourceTree = "<group>"; };
+		361A9A021B384C6400943FAD /* AMPhunwareProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPhunwareProvider.m; sourceTree = "<group>"; };
+		361A9A031B384C6400943FAD /* AMProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProvider.h; sourceTree = "<group>"; };
+		361A9A041B384C6400943FAD /* AMProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProvider.m; sourceTree = "<group>"; };
+		361A9A051B384C6400943FAD /* AMStartAppProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStartAppProvider.h; sourceTree = "<group>"; };
+		361A9A061B384C6400943FAD /* AMStartAppProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStartAppProvider.m; sourceTree = "<group>"; };
+		361A9A091B384C6400943FAD /* AMAdMobBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdMobBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A0A1B384C6400943FAD /* AMAdMobBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdMobBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A0B1B384C6400943FAD /* AMAPIBannerViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIBannerViewAdapter.h; sourceTree = "<group>"; };
+		361A9A0C1B384C6400943FAD /* AMAPIBannerViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIBannerViewAdapter.m; sourceTree = "<group>"; };
+		361A9A0D1B384C6400943FAD /* AMAppLovinBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAppLovinBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A0E1B384C6400943FAD /* AMAppLovinBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAppLovinBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A0F1B384C6400943FAD /* AMGreystripeBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGreystripeBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A101B384C6400943FAD /* AMGreystripeBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGreystripeBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A111B384C6400943FAD /* AMInMobiBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInMobiBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A121B384C6400943FAD /* AMInMobiBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInMobiBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A131B384C6400943FAD /* AMPhunwareBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPhunwareBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A141B384C6400943FAD /* AMPhunwareBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPhunwareBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A151B384C6400943FAD /* AMStartAppBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStartAppBannerAdapter.h; sourceTree = "<group>"; };
+		361A9A161B384C6400943FAD /* AMStartAppBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStartAppBannerAdapter.m; sourceTree = "<group>"; };
+		361A9A171B384C6400943FAD /* AMAPIBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIBannerView.h; sourceTree = "<group>"; };
+		361A9A181B384C6400943FAD /* AMAPIBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIBannerView.m; sourceTree = "<group>"; };
+		361A9A191B384C6400943FAD /* AMAPIBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIBannerViewDelegate.h; sourceTree = "<group>"; };
+		361A9A1A1B384C6400943FAD /* AMBannerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBannerLoader.h; sourceTree = "<group>"; };
+		361A9A1B1B384C6400943FAD /* AMBannerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBannerLoader.m; sourceTree = "<group>"; };
+		361A9A1C1B384C6400943FAD /* AMBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBannerView.h; sourceTree = "<group>"; };
+		361A9A1D1B384C6400943FAD /* AMBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBannerView.m; sourceTree = "<group>"; };
+		361A9A1E1B384C6400943FAD /* AMBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBannerViewDelegate.h; sourceTree = "<group>"; };
+		361A9A1F1B384C6400943FAD /* AMProviderBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProviderBannerAdapter.h; sourceTree = "<group>"; };
+		361A9AD81B385EFB00943FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361A9ADC1B3863B200943FAD /* Adlib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Adlib-Prefix.pch"; sourceTree = "<group>"; };
+		361A9AF31B39ED0E00943FAD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		361A9AF41B39ED0E00943FAD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		361A9AF51B39ED0E00943FAD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		361A9AF61B39ED0E00943FAD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		361A9AF71B39ED0E00943FAD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		361A9AF81B39ED0E00943FAD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		361A9AF91B39ED0E00943FAD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		361A9AFA1B39ED0E00943FAD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		361A9AFB1B39ED0E00943FAD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		361A9AFC1B39ED0E00943FAD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		361A9AFD1B39ED0E00943FAD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		361A9AFE1B39ED0E00943FAD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		361A9AFF1B39ED0E00943FAD /* AMNamespacedDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMNamespacedDependencies.h; sourceTree = "<group>"; };
+		361A9B091B39ED0E00943FAD /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLJSONAdapter.h; sourceTree = "<group>"; };
+		361A9B0A1B39ED0E00943FAD /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLJSONAdapter.m; sourceTree = "<group>"; };
+		361A9B0B1B39ED0E00943FAD /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		361A9B0C1B39ED0E00943FAD /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		361A9B0D1B39ED0E00943FAD /* MTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModel.h; sourceTree = "<group>"; };
+		361A9B0E1B39ED0E00943FAD /* MTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModel.m; sourceTree = "<group>"; };
+		361A9B0F1B39ED0E00943FAD /* MTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLReflection.h; sourceTree = "<group>"; };
+		361A9B101B39ED0E00943FAD /* MTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLReflection.m; sourceTree = "<group>"; };
+		361A9B111B39ED0E00943FAD /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		361A9B121B39ED0E00943FAD /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		361A9B131B39ED0E00943FAD /* MTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLValueTransformer.h; sourceTree = "<group>"; };
+		361A9B141B39ED0E00943FAD /* MTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLValueTransformer.m; sourceTree = "<group>"; };
+		361A9B151B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		361A9B161B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		361A9B171B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		361A9B181B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		361A9B191B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		361A9B1A1B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		361A9B1B1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		361A9B1C1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		361A9B1D1B39ED0E00943FAD /* NSError+MTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		361A9B1E1B39ED0E00943FAD /* NSError+MTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		361A9B1F1B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		361A9B201B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		361A9B211B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		361A9B221B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		361A9B231B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		361A9B241B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		361A9B581B3AFFAD00943FAD /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		361A9B591B3AFFAD00943FAD /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		361A9B5A1B3AFFAD00943FAD /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		361A9B5B1B3AFFAD00943FAD /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		361A9B5C1B3AFFAD00943FAD /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		361A9B5D1B3AFFAD00943FAD /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		361C00941B38405B00A87CDB /* Adlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3637D1551B3C399D0018AB80 /* AMDemographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDemographics.h; sourceTree = "<group>"; };
+		3637D1561B3C399D0018AB80 /* AMDemographics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDemographics.m; sourceTree = "<group>"; };
+		3637D1591B3C60C80018AB80 /* AMNetworkConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMNetworkConfigurationManager.h; sourceTree = "<group>"; };
+		3637D15A1B3C60C80018AB80 /* AMNetworkConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMNetworkConfigurationManager.m; sourceTree = "<group>"; };
+		364D62361B3847F500195938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364D62371B3847F500195938 /* AdlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdlibTests.m; sourceTree = "<group>"; };
+		367008451B3C6C190064A9D7 /* AMConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConfiguration.h; sourceTree = "<group>"; };
+		367008461B3C6C190064A9D7 /* AMConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConfiguration.m; sourceTree = "<group>"; };
+		535CD1BF1CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPhunwareInterstitialAdapter.h; sourceTree = "<group>"; };
+		535CD1C01CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPhunwareInterstitialAdapter.m; sourceTree = "<group>"; };
+		535CD1C31CEA5C870059CA02 /* AMStartAppInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStartAppInterstitialAdapter.h; sourceTree = "<group>"; };
+		535CD1C41CEA5C870059CA02 /* AMStartAppInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStartAppInterstitialAdapter.m; sourceTree = "<group>"; };
+		537157541CE64A190073A124 /* AMAPIInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIInterstitialView.h; sourceTree = "<group>"; };
+		537157551CE64A190073A124 /* AMAPIInterstitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIInterstitialView.m; sourceTree = "<group>"; };
+		537157561CE64A190073A124 /* AMAPIInterstitialViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIInterstitialViewDelegate.h; sourceTree = "<group>"; };
+		537157571CE64A190073A124 /* AMInterstitialLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInterstitialLoader.h; sourceTree = "<group>"; };
+		537157581CE64A190073A124 /* AMInterstitialLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInterstitialLoader.m; sourceTree = "<group>"; };
+		537157591CE64A190073A124 /* AMInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInterstitialView.h; sourceTree = "<group>"; };
+		5371575A1CE64A190073A124 /* AMInterstitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInterstitialView.m; sourceTree = "<group>"; };
+		5371575B1CE64A190073A124 /* AMInterstitialViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInterstitialViewDelegate.h; sourceTree = "<group>"; };
+		5371575C1CE64A190073A124 /* AMProviderInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProviderInterstitialAdapter.h; sourceTree = "<group>"; };
+		537157661CE64B590073A124 /* AMAPIInterstitialViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIInterstitialViewAdapter.h; sourceTree = "<group>"; };
+		537157671CE64B590073A124 /* AMAPIInterstitialViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIInterstitialViewAdapter.m; sourceTree = "<group>"; };
+		5371576A1CE64B790073A124 /* AMAdMobInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAdMobInterstitialAdapter.h; sourceTree = "<group>"; };
+		5371576B1CE64B790073A124 /* AMAdMobInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAdMobInterstitialAdapter.m; sourceTree = "<group>"; };
+		5371576E1CE65C220073A124 /* AMAppLovinInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAppLovinInterstitialAdapter.h; sourceTree = "<group>"; };
+		5371576F1CE65C220073A124 /* AMAppLovinInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAppLovinInterstitialAdapter.m; sourceTree = "<group>"; };
+		537157721CE69D610073A124 /* AMGreystripeInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGreystripeInterstitialAdapter.h; sourceTree = "<group>"; };
+		537157731CE69D610073A124 /* AMGreystripeInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGreystripeInterstitialAdapter.m; sourceTree = "<group>"; };
+		53C0B72E1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInMobiInterstitialAdapter.h; sourceTree = "<group>"; };
+		53C0B72F1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInMobiInterstitialAdapter.m; sourceTree = "<group>"; };
+		88B8406C6B916815E026FA2C /* Pods-Adlib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adlib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adlib/Pods-Adlib.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9408D6409F3B2CF32250EA /* Pods-Adlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adlib.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adlib/Pods-Adlib.release.xcconfig"; sourceTree = "<group>"; };
+		F4771889B313E2D0FECF61D1 /* libPods-Adlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adlib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361C00901B38405B00A87CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE47C9D90DAE3FDC573E9A8 /* libPods-Adlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361A99D91B384C6400943FAD /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				361A99DA1B384C6400943FAD /* Adlib.h */,
+				367008451B3C6C190064A9D7 /* AMConfiguration.h */,
+				367008461B3C6C190064A9D7 /* AMConfiguration.m */,
+				361A99DB1B384C6400943FAD /* AMMacros.h */,
+				361A99DC1B384C6400943FAD /* Client */,
+				361A9AF11B39ED0E00943FAD /* Dependencies */,
+				361A99E01B384C6400943FAD /* Models */,
+				361A99F31B384C6400943FAD /* Networking */,
+				361A99F61B384C6400943FAD /* Providers */,
+				361A9A071B384C6400943FAD /* Views */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		361A99DC1B384C6400943FAD /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				361A99DD1B384C6400943FAD /* AdlibClient.h */,
+				361A99DE1B384C6400943FAD /* AdlibClient.m */,
+				361A99DF1B384C6400943FAD /* AdlibClientDelegate.h */,
+				3637D1591B3C60C80018AB80 /* AMNetworkConfigurationManager.h */,
+				3637D15A1B3C60C80018AB80 /* AMNetworkConfigurationManager.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		361A99E01B384C6400943FAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				361A99E11B384C6400943FAD /* AMAd.h */,
+				361A99E21B384C6400943FAD /* AMAd.m */,
+				361A99E31B384C6400943FAD /* AMAdQuery.h */,
+				361A99E41B384C6400943FAD /* AMAdQuery.m */,
+				361A99E51B384C6400943FAD /* AMAdUnit.h */,
+				361A99E61B384C6400943FAD /* AMAdUnit.m */,
+				361A99E71B384C6400943FAD /* AMCampaign.h */,
+				361A99E81B384C6400943FAD /* AMCampaign.m */,
+				361A99E91B384C6400943FAD /* AMCampaignTarget.h */,
+				361A99EA1B384C6400943FAD /* AMCampaignTarget.m */,
+				361A99EB1B384C6400943FAD /* AMClientConfiguration.h */,
+				361A99EC1B384C6400943FAD /* AMClientConfiguration.m */,
+				3637D1551B3C399D0018AB80 /* AMDemographics.h */,
+				3637D1561B3C399D0018AB80 /* AMDemographics.m */,
+				361A99ED1B384C6400943FAD /* AMNetworkConfiguration.h */,
+				361A99EE1B384C6400943FAD /* AMNetworkConfiguration.m */,
+				361A99EF1B384C6400943FAD /* AMRegisterEvent.h */,
+				361A99F01B384C6400943FAD /* AMRegisterEvent.m */,
+				361A99F11B384C6400943FAD /* AMTapEvent.h */,
+				361A99F21B384C6400943FAD /* AMTapEvent.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		361A99F31B384C6400943FAD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				361A99F41B384C6400943FAD /* AMHTTPClient.h */,
+				361A99F51B384C6400943FAD /* AMHTTPClient.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		361A99F61B384C6400943FAD /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				361A99F71B384C6400943FAD /* AMAdlibProvider.h */,
+				361A99F81B384C6400943FAD /* AMAdlibProvider.m */,
+				361A99F91B384C6400943FAD /* AMAdMobProvider.h */,
+				361A99FA1B384C6400943FAD /* AMAdMobProvider.m */,
+				361A99FB1B384C6400943FAD /* AMAppLovinProvider.h */,
+				361A99FC1B384C6400943FAD /* AMAppLovinProvider.m */,
+				361A99FD1B384C6400943FAD /* AMGreystripeProvider.h */,
+				361A99FE1B384C6400943FAD /* AMGreystripeProvider.m */,
+				361A99FF1B384C6400943FAD /* AMInMobiProvider.h */,
+				361A9A001B384C6400943FAD /* AMInMobiProvider.m */,
+				361A9A011B384C6400943FAD /* AMPhunwareProvider.h */,
+				361A9A021B384C6400943FAD /* AMPhunwareProvider.m */,
+				361A9A031B384C6400943FAD /* AMProvider.h */,
+				361A9A041B384C6400943FAD /* AMProvider.m */,
+				361A9A051B384C6400943FAD /* AMStartAppProvider.h */,
+				361A9A061B384C6400943FAD /* AMStartAppProvider.m */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		361A9A071B384C6400943FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				361A9A081B384C6400943FAD /* Adapters */,
+				361A9A171B384C6400943FAD /* AMAPIBannerView.h */,
+				361A9A181B384C6400943FAD /* AMAPIBannerView.m */,
+				361A9A191B384C6400943FAD /* AMAPIBannerViewDelegate.h */,
+				361A9A1A1B384C6400943FAD /* AMBannerLoader.h */,
+				361A9A1B1B384C6400943FAD /* AMBannerLoader.m */,
+				361A9A1C1B384C6400943FAD /* AMBannerView.h */,
+				361A9A1D1B384C6400943FAD /* AMBannerView.m */,
+				361A9A1E1B384C6400943FAD /* AMBannerViewDelegate.h */,
+				361A9A1F1B384C6400943FAD /* AMProviderBannerAdapter.h */,
+				537157541CE64A190073A124 /* AMAPIInterstitialView.h */,
+				537157551CE64A190073A124 /* AMAPIInterstitialView.m */,
+				537157561CE64A190073A124 /* AMAPIInterstitialViewDelegate.h */,
+				537157571CE64A190073A124 /* AMInterstitialLoader.h */,
+				537157581CE64A190073A124 /* AMInterstitialLoader.m */,
+				537157591CE64A190073A124 /* AMInterstitialView.h */,
+				5371575A1CE64A190073A124 /* AMInterstitialView.m */,
+				5371575B1CE64A190073A124 /* AMInterstitialViewDelegate.h */,
+				5371575C1CE64A190073A124 /* AMProviderInterstitialAdapter.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		361A9A081B384C6400943FAD /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				361A9A091B384C6400943FAD /* AMAdMobBannerAdapter.h */,
+				361A9A0A1B384C6400943FAD /* AMAdMobBannerAdapter.m */,
+				361A9A0B1B384C6400943FAD /* AMAPIBannerViewAdapter.h */,
+				361A9A0C1B384C6400943FAD /* AMAPIBannerViewAdapter.m */,
+				361A9A0D1B384C6400943FAD /* AMAppLovinBannerAdapter.h */,
+				361A9A0E1B384C6400943FAD /* AMAppLovinBannerAdapter.m */,
+				361A9A0F1B384C6400943FAD /* AMGreystripeBannerAdapter.h */,
+				361A9A101B384C6400943FAD /* AMGreystripeBannerAdapter.m */,
+				361A9A111B384C6400943FAD /* AMInMobiBannerAdapter.h */,
+				361A9A121B384C6400943FAD /* AMInMobiBannerAdapter.m */,
+				361A9A131B384C6400943FAD /* AMPhunwareBannerAdapter.h */,
+				361A9A141B384C6400943FAD /* AMPhunwareBannerAdapter.m */,
+				361A9A151B384C6400943FAD /* AMStartAppBannerAdapter.h */,
+				361A9A161B384C6400943FAD /* AMStartAppBannerAdapter.m */,
+				5371576A1CE64B790073A124 /* AMAdMobInterstitialAdapter.h */,
+				5371576B1CE64B790073A124 /* AMAdMobInterstitialAdapter.m */,
+				537157661CE64B590073A124 /* AMAPIInterstitialViewAdapter.h */,
+				537157671CE64B590073A124 /* AMAPIInterstitialViewAdapter.m */,
+				5371576E1CE65C220073A124 /* AMAppLovinInterstitialAdapter.h */,
+				5371576F1CE65C220073A124 /* AMAppLovinInterstitialAdapter.m */,
+				537157721CE69D610073A124 /* AMGreystripeInterstitialAdapter.h */,
+				537157731CE69D610073A124 /* AMGreystripeInterstitialAdapter.m */,
+				53C0B72E1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.h */,
+				53C0B72F1CEA29C70068E5AE /* AMInMobiInterstitialAdapter.m */,
+				535CD1BF1CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.h */,
+				535CD1C01CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.m */,
+				535CD1C31CEA5C870059CA02 /* AMStartAppInterstitialAdapter.h */,
+				535CD1C41CEA5C870059CA02 /* AMStartAppInterstitialAdapter.m */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		361A9AD71B385EDD00943FAD /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				361A9AD81B385EFB00943FAD /* Info.plist */,
+				361A9ADC1B3863B200943FAD /* Adlib-Prefix.pch */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		361A9AF11B39ED0E00943FAD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				361A9AF21B39ED0E00943FAD /* AFNetworking */,
+				361A9AFF1B39ED0E00943FAD /* AMNamespacedDependencies.h */,
+				361A9B071B39ED0E00943FAD /* Mantle */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		361A9AF21B39ED0E00943FAD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				361A9AF31B39ED0E00943FAD /* AFHTTPSessionManager.h */,
+				361A9AF41B39ED0E00943FAD /* AFHTTPSessionManager.m */,
+				361A9AF51B39ED0E00943FAD /* AFNetworkReachabilityManager.h */,
+				361A9AF61B39ED0E00943FAD /* AFNetworkReachabilityManager.m */,
+				361A9AF71B39ED0E00943FAD /* AFSecurityPolicy.h */,
+				361A9AF81B39ED0E00943FAD /* AFSecurityPolicy.m */,
+				361A9AF91B39ED0E00943FAD /* AFURLRequestSerialization.h */,
+				361A9AFA1B39ED0E00943FAD /* AFURLRequestSerialization.m */,
+				361A9AFB1B39ED0E00943FAD /* AFURLResponseSerialization.h */,
+				361A9AFC1B39ED0E00943FAD /* AFURLResponseSerialization.m */,
+				361A9AFD1B39ED0E00943FAD /* AFURLSessionManager.h */,
+				361A9AFE1B39ED0E00943FAD /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		361A9B071B39ED0E00943FAD /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				361A9B571B3AFFAD00943FAD /* extobjc */,
+				361A9B091B39ED0E00943FAD /* MTLJSONAdapter.h */,
+				361A9B0A1B39ED0E00943FAD /* MTLJSONAdapter.m */,
+				361A9B0B1B39ED0E00943FAD /* MTLModel+NSCoding.h */,
+				361A9B0C1B39ED0E00943FAD /* MTLModel+NSCoding.m */,
+				361A9B0D1B39ED0E00943FAD /* MTLModel.h */,
+				361A9B0E1B39ED0E00943FAD /* MTLModel.m */,
+				361A9B0F1B39ED0E00943FAD /* MTLReflection.h */,
+				361A9B101B39ED0E00943FAD /* MTLReflection.m */,
+				361A9B111B39ED0E00943FAD /* MTLTransformerErrorHandling.h */,
+				361A9B121B39ED0E00943FAD /* MTLTransformerErrorHandling.m */,
+				361A9B131B39ED0E00943FAD /* MTLValueTransformer.h */,
+				361A9B141B39ED0E00943FAD /* MTLValueTransformer.m */,
+				361A9B151B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.h */,
+				361A9B161B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.m */,
+				361A9B171B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.h */,
+				361A9B181B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.m */,
+				361A9B191B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.h */,
+				361A9B1A1B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.m */,
+				361A9B1B1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.h */,
+				361A9B1C1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.m */,
+				361A9B1D1B39ED0E00943FAD /* NSError+MTLModelException.h */,
+				361A9B1E1B39ED0E00943FAD /* NSError+MTLModelException.m */,
+				361A9B1F1B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.h */,
+				361A9B201B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.m */,
+				361A9B211B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.h */,
+				361A9B221B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.m */,
+				361A9B231B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				361A9B241B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		361A9B571B3AFFAD00943FAD /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				361A9B581B3AFFAD00943FAD /* EXTKeyPathCoding.h */,
+				361A9B591B3AFFAD00943FAD /* EXTRuntimeExtensions.h */,
+				361A9B5A1B3AFFAD00943FAD /* EXTRuntimeExtensions.m */,
+				361A9B5B1B3AFFAD00943FAD /* EXTScope.h */,
+				361A9B5C1B3AFFAD00943FAD /* EXTScope.m */,
+				361A9B5D1B3AFFAD00943FAD /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		361C008A1B38405B00A87CDB = {
+			isa = PBXGroup;
+			children = (
+				361A9AD71B385EDD00943FAD /* Private */,
+				361A99D91B384C6400943FAD /* Code */,
+				364D62391B3847F500195938 /* Tests */,
+				361C00951B38405B00A87CDB /* Products */,
+				EF3BFE161E1B82EAC8DB9175 /* Pods */,
+				A5CFFAA878128D9EDFE890C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361C00951B38405B00A87CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361C00941B38405B00A87CDB /* Adlib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364D62381B3847F500195938 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				364D62371B3847F500195938 /* AdlibTests.m */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		364D62391B3847F500195938 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				364D62361B3847F500195938 /* Info.plist */,
+				364D62381B3847F500195938 /* Unit */,
+			);
+			name = Tests;
+			path = Adlib.xcodeproj/../Tests;
+			sourceTree = "<group>";
+		};
+		A5CFFAA878128D9EDFE890C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4771889B313E2D0FECF61D1 /* libPods-Adlib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3BFE161E1B82EAC8DB9175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88B8406C6B916815E026FA2C /* Pods-Adlib.debug.xcconfig */,
+				CC9408D6409F3B2CF32250EA /* Pods-Adlib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		361C00911B38405B00A87CDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361A9B2F1B39ED0E00943FAD /* AFURLSessionManager.h in Headers */,
+				537157641CE64A190073A124 /* AMInterstitialViewDelegate.h in Headers */,
+				361A9ADD1B3863B200943FAD /* Adlib-Prefix.pch in Headers */,
+				537157621CE64A190073A124 /* AMInterstitialView.h in Headers */,
+				361A9A4B1B384C6400943FAD /* AMAPIBannerViewAdapter.h in Headers */,
+				361A9B3D1B39ED0E00943FAD /* MTLModel.h in Headers */,
+				361A9B2B1B39ED0E00943FAD /* AFURLRequestSerialization.h in Headers */,
+				361A9B4D1B39ED0E00943FAD /* NSError+MTLModelException.h in Headers */,
+				361A9A5C1B384C6400943FAD /* AMBannerView.h in Headers */,
+				361A9A5E1B384C6400943FAD /* AMBannerViewDelegate.h in Headers */,
+				361A9B251B39ED0E00943FAD /* AFHTTPSessionManager.h in Headers */,
+				361A9B3B1B39ED0E00943FAD /* MTLModel+NSCoding.h in Headers */,
+				361A9A5A1B384C6400943FAD /* AMBannerLoader.h in Headers */,
+				361A9B491B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				3637D15B1B3C60C80018AB80 /* AMNetworkConfigurationManager.h in Headers */,
+				367008471B3C6C190064A9D7 /* AMConfiguration.h in Headers */,
+				36CD3A991B3B37E000B86663 /* EXTKeyPathCoding.h in Headers */,
+				36CD3A9C1B3B37EA00B86663 /* metamacros.h in Headers */,
+				361A9A2B1B384C6400943FAD /* AMCampaign.h in Headers */,
+				361A9A451B384C6400943FAD /* AMProvider.h in Headers */,
+				537157601CE64A190073A124 /* AMInterstitialLoader.h in Headers */,
+				361A9A4F1B384C6400943FAD /* AMGreystripeBannerAdapter.h in Headers */,
+				361A9A271B384C6400943FAD /* AMAdQuery.h in Headers */,
+				361A9B311B39ED0E00943FAD /* AMNamespacedDependencies.h in Headers */,
+				537157701CE65C220073A124 /* AMAppLovinInterstitialAdapter.h in Headers */,
+				361A9B291B39ED0E00943FAD /* AFSecurityPolicy.h in Headers */,
+				361A9B451B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.h in Headers */,
+				361A9A571B384C6400943FAD /* AMAPIBannerView.h in Headers */,
+				361A9A391B384C6400943FAD /* AMAdlibProvider.h in Headers */,
+				361A9B411B39ED0E00943FAD /* MTLTransformerErrorHandling.h in Headers */,
+				361A9A491B384C6400943FAD /* AMAdMobBannerAdapter.h in Headers */,
+				361A9A551B384C6400943FAD /* AMStartAppBannerAdapter.h in Headers */,
+				361A9A531B384C6400943FAD /* AMPhunwareBannerAdapter.h in Headers */,
+				361A9B3F1B39ED0E00943FAD /* MTLReflection.h in Headers */,
+				361A9A3B1B384C6400943FAD /* AMAdMobProvider.h in Headers */,
+				361A9A3D1B384C6400943FAD /* AMAppLovinProvider.h in Headers */,
+				361A9A311B384C6400943FAD /* AMNetworkConfiguration.h in Headers */,
+				36CD3A9A1B3B37E200B86663 /* EXTRuntimeExtensions.h in Headers */,
+				361A9A251B384C6400943FAD /* AMAd.h in Headers */,
+				361A9A331B384C6400943FAD /* AMRegisterEvent.h in Headers */,
+				537157681CE64B590073A124 /* AMAPIInterstitialViewAdapter.h in Headers */,
+				361A9A411B384C6400943FAD /* AMInMobiProvider.h in Headers */,
+				361A9B391B39ED0E00943FAD /* MTLJSONAdapter.h in Headers */,
+				361A9A201B384C6400943FAD /* Adlib.h in Headers */,
+				36CD3A9B1B3B37E600B86663 /* EXTScope.h in Headers */,
+				361A9B271B39ED0E00943FAD /* AFNetworkReachabilityManager.h in Headers */,
+				361A9B2D1B39ED0E00943FAD /* AFURLResponseSerialization.h in Headers */,
+				361A9A3F1B384C6400943FAD /* AMGreystripeProvider.h in Headers */,
+				361A9A591B384C6400943FAD /* AMAPIBannerViewDelegate.h in Headers */,
+				361A9B531B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+				3637D1571B3C399D0018AB80 /* AMDemographics.h in Headers */,
+				361A9A2D1B384C6400943FAD /* AMCampaignTarget.h in Headers */,
+				361A9A511B384C6400943FAD /* AMInMobiBannerAdapter.h in Headers */,
+				361A9A4D1B384C6400943FAD /* AMAppLovinBannerAdapter.h in Headers */,
+				535CD1C11CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.h in Headers */,
+				537157741CE69D610073A124 /* AMGreystripeInterstitialAdapter.h in Headers */,
+				361A9A471B384C6400943FAD /* AMStartAppProvider.h in Headers */,
+				361A9B4B1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.h in Headers */,
+				361A9A241B384C6400943FAD /* AdlibClientDelegate.h in Headers */,
+				5371576C1CE64B790073A124 /* AMAdMobInterstitialAdapter.h in Headers */,
+				361A9B471B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.h in Headers */,
+				5371575F1CE64A190073A124 /* AMAPIInterstitialViewDelegate.h in Headers */,
+				361A9A211B384C6400943FAD /* AMMacros.h in Headers */,
+				535CD1C51CEA5C870059CA02 /* AMStartAppInterstitialAdapter.h in Headers */,
+				361A9A371B384C6400943FAD /* AMHTTPClient.h in Headers */,
+				361A9B431B39ED0E00943FAD /* MTLValueTransformer.h in Headers */,
+				361A9A291B384C6400943FAD /* AMAdUnit.h in Headers */,
+				53C0B7301CEA29C70068E5AE /* AMInMobiInterstitialAdapter.h in Headers */,
+				537157651CE64A190073A124 /* AMProviderInterstitialAdapter.h in Headers */,
+				361A9A2F1B384C6400943FAD /* AMClientConfiguration.h in Headers */,
+				361A9A431B384C6400943FAD /* AMPhunwareProvider.h in Headers */,
+				5371575D1CE64A190073A124 /* AMAPIInterstitialView.h in Headers */,
+				361A9A5F1B384C6400943FAD /* AMProviderBannerAdapter.h in Headers */,
+				361A9A351B384C6400943FAD /* AMTapEvent.h in Headers */,
+				361A9B511B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				361A9A221B384C6400943FAD /* AdlibClient.h in Headers */,
+				361A9B4F1B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		361C00931B38405B00A87CDB /* Adlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361C00AA1B38405B00A87CDB /* Build configuration list for PBXNativeTarget "Adlib" */;
+			buildPhases = (
+				9E17EF5FBD00DD592C297BAA /* 📦 Check Pods Manifest.lock */,
+				361C008F1B38405B00A87CDB /* Sources */,
+				361C00901B38405B00A87CDB /* Frameworks */,
+				361C00911B38405B00A87CDB /* Headers */,
+				361C00921B38405B00A87CDB /* Resources */,
+				F3DCAAB982CE770D3F0C695A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adlib;
+			productName = Adlib;
+			productReference = 361C00941B38405B00A87CDB /* Adlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361C008B1B38405B00A87CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adlib Mediation";
+				TargetAttributes = {
+					361A9ACE1B38563300943FAD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					361C00931B38405B00A87CDB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 361C008E1B38405B00A87CDB /* Build configuration list for PBXProject "Adlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361C008A1B38405B00A87CDB;
+			productRefGroup = 361C00951B38405B00A87CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361C00931B38405B00A87CDB /* Adlib */,
+				361A9ACE1B38563300943FAD /* Adlib-universal */,
+				367008551B3C8E9F0064A9D7 /* Adlib-universal-beta */,
+				3670085E1B3C96620064A9D7 /* Adlib-universal-staging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361C00921B38405B00A87CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		361A9AE21B39A77700943FAD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh Scripts/universal_framework.sh AM_PRODUCTION";
+		};
+		367008581B3C8E9F0064A9D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh Scripts/universal_framework.sh AM_BETA";
+		};
+		367008611B3C96620064A9D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh Scripts/universal_framework.sh AM_STAGING";
+		};
+		9E17EF5FBD00DD592C297BAA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DCAAB982CE770D3F0C695A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adlib/Pods-Adlib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361C008F1B38405B00A87CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361A9A3C1B384C6400943FAD /* AMAdMobProvider.m in Sources */,
+				361A9B281B39ED0E00943FAD /* AFNetworkReachabilityManager.m in Sources */,
+				361A9B541B39ED0E00943FAD /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				361A9A361B384C6400943FAD /* AMTapEvent.m in Sources */,
+				361A9B4A1B39ED0E00943FAD /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				361A9B521B39ED0E00943FAD /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				5371576D1CE64B790073A124 /* AMAdMobInterstitialAdapter.m in Sources */,
+				361A9A2A1B384C6400943FAD /* AMAdUnit.m in Sources */,
+				361A9A381B384C6400943FAD /* AMHTTPClient.m in Sources */,
+				361A9A541B384C6400943FAD /* AMPhunwareBannerAdapter.m in Sources */,
+				361A9A4C1B384C6400943FAD /* AMAPIBannerViewAdapter.m in Sources */,
+				535CD1C21CEA5C730059CA02 /* AMPhunwareInterstitialAdapter.m in Sources */,
+				361A9A421B384C6400943FAD /* AMInMobiProvider.m in Sources */,
+				361A9A581B384C6400943FAD /* AMAPIBannerView.m in Sources */,
+				53C0B7311CEA29C70068E5AE /* AMInMobiInterstitialAdapter.m in Sources */,
+				361A9A401B384C6400943FAD /* AMGreystripeProvider.m in Sources */,
+				361A9B301B39ED0E00943FAD /* AFURLSessionManager.m in Sources */,
+				361A9A441B384C6400943FAD /* AMPhunwareProvider.m in Sources */,
+				361A9B4C1B39ED0E00943FAD /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				537157631CE64A190073A124 /* AMInterstitialView.m in Sources */,
+				36CD3A2C1B3B2EDC00B86663 /* EXTRuntimeExtensions.m in Sources */,
+				361A9A281B384C6400943FAD /* AMAdQuery.m in Sources */,
+				361A9B2E1B39ED0E00943FAD /* AFURLResponseSerialization.m in Sources */,
+				361A9A2E1B384C6400943FAD /* AMCampaignTarget.m in Sources */,
+				361A9A3A1B384C6400943FAD /* AMAdlibProvider.m in Sources */,
+				361A9B401B39ED0E00943FAD /* MTLReflection.m in Sources */,
+				361A9A561B384C6400943FAD /* AMStartAppBannerAdapter.m in Sources */,
+				361A9A5B1B384C6400943FAD /* AMBannerLoader.m in Sources */,
+				367008481B3C6C190064A9D7 /* AMConfiguration.m in Sources */,
+				36CD3A2D1B3B2EEA00B86663 /* EXTScope.m in Sources */,
+				361A9B3E1B39ED0E00943FAD /* MTLModel.m in Sources */,
+				361A9B481B39ED0E00943FAD /* NSDictionary+MTLJSONKeyPath.m in Sources */,
+				361A9A321B384C6400943FAD /* AMNetworkConfiguration.m in Sources */,
+				361A9B4E1B39ED0E00943FAD /* NSError+MTLModelException.m in Sources */,
+				361A9A341B384C6400943FAD /* AMRegisterEvent.m in Sources */,
+				537157751CE69D610073A124 /* AMGreystripeInterstitialAdapter.m in Sources */,
+				361A9B2C1B39ED0E00943FAD /* AFURLRequestSerialization.m in Sources */,
+				3637D1581B3C399D0018AB80 /* AMDemographics.m in Sources */,
+				361A9A3E1B384C6400943FAD /* AMAppLovinProvider.m in Sources */,
+				5371575E1CE64A190073A124 /* AMAPIInterstitialView.m in Sources */,
+				361A9B3A1B39ED0E00943FAD /* MTLJSONAdapter.m in Sources */,
+				361A9A4A1B384C6400943FAD /* AMAdMobBannerAdapter.m in Sources */,
+				361A9A5D1B384C6400943FAD /* AMBannerView.m in Sources */,
+				361A9A2C1B384C6400943FAD /* AMCampaign.m in Sources */,
+				361A9A461B384C6400943FAD /* AMProvider.m in Sources */,
+				537157711CE65C220073A124 /* AMAppLovinInterstitialAdapter.m in Sources */,
+				361A9A301B384C6400943FAD /* AMClientConfiguration.m in Sources */,
+				361A9B441B39ED0E00943FAD /* MTLValueTransformer.m in Sources */,
+				537157611CE64A190073A124 /* AMInterstitialLoader.m in Sources */,
+				361A9A501B384C6400943FAD /* AMGreystripeBannerAdapter.m in Sources */,
+				361A9B501B39ED0E00943FAD /* NSObject+MTLComparisonAdditions.m in Sources */,
+				361A9B421B39ED0E00943FAD /* MTLTransformerErrorHandling.m in Sources */,
+				535CD1C61CEA5C870059CA02 /* AMStartAppInterstitialAdapter.m in Sources */,
+				361A9A4E1B384C6400943FAD /* AMAppLovinBannerAdapter.m in Sources */,
+				361A9A261B384C6400943FAD /* AMAd.m in Sources */,
+				537157691CE64B590073A124 /* AMAPIInterstitialViewAdapter.m in Sources */,
+				361A9B3C1B39ED0E00943FAD /* MTLModel+NSCoding.m in Sources */,
+				361A9A521B384C6400943FAD /* AMInMobiBannerAdapter.m in Sources */,
+				361A9B2A1B39ED0E00943FAD /* AFSecurityPolicy.m in Sources */,
+				361A9B261B39ED0E00943FAD /* AFHTTPSessionManager.m in Sources */,
+				361A9B461B39ED0E00943FAD /* NSArray+MTLManipulationAdditions.m in Sources */,
+				3637D15C1B3C60C80018AB80 /* AMNetworkConfigurationManager.m in Sources */,
+				361A9A481B384C6400943FAD /* AMStartAppProvider.m in Sources */,
+				361A9A231B384C6400943FAD /* AdlibClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		361A9AD01B38563300943FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		361A9AD11B38563300943FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "AM_PRODUCTION=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		361C00A81B38405B00A87CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		361C00A91B38405B00A87CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		361C00AB1B38405B00A87CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B8406C6B916815E026FA2C /* Pods-Adlib.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/../Vendor/GoogleMobileAdsSdkiOS-7.8.1\"",
+					"\"$(PODS_ROOT)/../Vendor/StartApp-3.3.2\"",
+					"\"$(PODS_ROOT)/PWAds/**\"",
+					"\"$(PODS_ROOT)/PWAds/Framework\"",
+					"\"$(PODS_ROOT)/PWCore/**\"",
+					"\"$(PODS_ROOT)/PWAds/Framework\"",
+				);
+				GCC_PREFIX_HEADER = "Private/Adlib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Adlib-framework\"",
+					"\"${PODS_ROOT}/Headers/Public/InMobiSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/PWAds/PWAdvertising\"",
+					"\"$(PODS_ROOT)/../Vendor/applovin-ios-sdk-3.3.1/headers\"",
+					"\"${PODS_ROOT}/Headers/Public/PWCore\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Private/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/../Vendor/ConversantSDK-4.5.0\"",
+					"\"$(PODS_ROOT)/../Vendor/applovin-ios-sdk-3.3.1\"",
+					"\"$(PODS_ROOT)/InMobiSDK/Libs\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"GreystripeSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AddressBookUI\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"EventKitUI\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"PWAdvertising\"",
+					"-framework",
+					"\"PWCore\"",
+					"-framework",
+					"\"PassKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"StartApp\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Twitter\"",
+					"-framework",
+					"\"UIKit\"",
+					"-l\"InMobi-5.3.0\"",
+					"-l\"appLovinSdk\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adlibmediation.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		361C00AC1B38405B00A87CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9408D6409F3B2CF32250EA /* Pods-Adlib.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/../Vendor/GoogleMobileAdsSdkiOS-7.8.1\"",
+					"\"$(PODS_ROOT)/../Vendor/StartApp-3.3.2\"",
+					"\"$(PODS_ROOT)/PWAds/**\"",
+					"\"$(PODS_ROOT)/PWAds/Framework\"",
+					"\"$(PODS_ROOT)/PWCore/**\"",
+					"\"$(PODS_ROOT)/PWAds/Framework\"",
+				);
+				GCC_PREFIX_HEADER = "Private/Adlib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Adlib-framework\"",
+					"\"${PODS_ROOT}/Headers/Public/InMobiSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/PWAds/PWAdvertising\"",
+					"\"$(PODS_ROOT)/../Vendor/applovin-ios-sdk-3.3.1/headers\"",
+					"\"${PODS_ROOT}/Headers/Public/PWCore\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Private/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/../Vendor/ConversantSDK-4.5.0\"",
+					"\"$(PODS_ROOT)/../Vendor/applovin-ios-sdk-3.3.1\"",
+					"\"$(PODS_ROOT)/InMobiSDK/Libs\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"GreystripeSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AddressBookUI\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"EventKitUI\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"PWAdvertising\"",
+					"-framework",
+					"\"PWCore\"",
+					"-framework",
+					"\"PassKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"StartApp\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Twitter\"",
+					"-framework",
+					"\"UIKit\"",
+					"-l\"InMobi-5.3.0\"",
+					"-l\"appLovinSdk\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adlibmediation.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3670085A1B3C8E9F0064A9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Adlib-universal copy";
+			};
+			name = Debug;
+		};
+		3670085B1B3C8E9F0064A9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "AM_BETA=1";
+				PRODUCT_NAME = "Adlib-universal copy";
+			};
+			name = Release;
+		};
+		367008631B3C96620064A9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Adlib-universal-beta copy";
+			};
+			name = Debug;
+		};
+		367008641B3C96620064A9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "AM_STAGING=1";
+				PRODUCT_NAME = "Adlib-universal-beta copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361A9ACF1B38563300943FAD /* Build configuration list for PBXAggregateTarget "Adlib-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361A9AD01B38563300943FAD /* Debug */,
+				361A9AD11B38563300943FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361C008E1B38405B00A87CDB /* Build configuration list for PBXProject "Adlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361C00A81B38405B00A87CDB /* Debug */,
+				361C00A91B38405B00A87CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361C00AA1B38405B00A87CDB /* Build configuration list for PBXNativeTarget "Adlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361C00AB1B38405B00A87CDB /* Debug */,
+				361C00AC1B38405B00A87CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367008591B3C8E9F0064A9D7 /* Build configuration list for PBXAggregateTarget "Adlib-universal-beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3670085A1B3C8E9F0064A9D7 /* Debug */,
+				3670085B1B3C8E9F0064A9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367008621B3C96620064A9D7 /* Build configuration list for PBXAggregateTarget "Adlib-universal-staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367008631B3C96620064A9D7 /* Debug */,
+				367008641B3C96620064A9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361C008B1B38405B00A87CDB /* Project object */;
+}

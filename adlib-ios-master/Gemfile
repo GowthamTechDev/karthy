@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+
+gem 'bundler'
+gem 'cocoapods', '0.39.0.beta.4'
+gem 'cocoapods-packager', :git => 'https://github.com/illyabusigin/cocoapods-packager'
+gem 'xcpretty'
+gem 'sbconstants'
+gem 'jazzy'
